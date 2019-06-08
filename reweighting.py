@@ -8,10 +8,6 @@ import numpy as np
 import json
 from collections import OrderedDict
 
-import nltk
-from nltk import ngrams
-from utils import punctuations
-
 import argparse
 parser = argparse.ArgumentParser()
 parser.add_argument('--src_file')
@@ -26,6 +22,16 @@ parser.add_argument('--coff0', default=0.33, type=float)
 parser.add_argument('--coff1', default=0.33, type=float)
 parser.add_argument('--bias', default=3.0, type=float)
 args = parser.parse_args()
+
+punctuations = {
+    u'，', u'。', u'、', u'？', u'；',
+    u'：', u'‘', u'’', u'“', u'”',
+    u'.', u',', u'!', u'~', u'[',
+    u']', u'{', u'}', u'|', u'-',
+    u'+', u'*', u'/', u'#', u'￥',
+    u'%', u'…', u'&', u'(', u')',
+    u'（', u'）', u'—', u'【', u'】'
+}
 
 def qa_pairs(src_file, tar_file):
     qa_dict = OrderedDict()
