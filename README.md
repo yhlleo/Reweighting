@@ -18,7 +18,7 @@ python reweighting.py \
 
 ## Dataset Format
 
-We have provided two samples in the `examples` folder, including a [`source.train`](./examples/source.train) and [`target.train`](./examples/target.train).
+We have provided two paired samples in the `examples` folder, including a [`source.train`](./examples/source.train) and [`target.train`](./examples/target.train).
 
 
 ## Reference
