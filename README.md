@@ -8,12 +8,17 @@ A Statistical Re-weighting Method](https://www.aclweb.org/anthology/D18-1297), E
 Run the command:
 
 ```
-python reweighting.py
+python reweighting.py \
+  --src_file /path/to/source_input \
+  --tgt_file /path/to/target_input \
+  --src_output /path/to/source_output \
+  --tgt_output /path/to/source_output \
+  --wt_output /path/to/weight_output
 ```
 
 ## Dataset Format
 
-We have provided two samples in the `examples` folder, including a `source.train` and `target.train`.
+We have provided two samples in the `examples` folder, including a [`source.train`](./examples/source.train) and [`target.train`](./examples/target.train).
 
 
 ## Reference

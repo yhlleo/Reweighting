@@ -10,11 +10,11 @@ from collections import OrderedDict
 
 import argparse
 parser = argparse.ArgumentParser()
-parser.add_argument('--src_file')
-parser.add_argument('--tgt_file')
-parser.add_argument('--src_output')
-parser.add_argument('--tgt_output')
-parser.add_argument('--wt_output')
+parser.add_argument('--src_file', help='/path/to/source_input')
+parser.add_argument('--tgt_file', help='/path/to/target_input')
+parser.add_argument('--src_output', help='/path/to/source_output')
+parser.add_argument('--tgt_output', help='/path/to/target_output')
+parser.add_argument('--wt_output', help='/path/to/weight_output')
 parser.add_argument('--reweight_mode', default='FL', 
     help='[F, L, FL], F refers to frequency, L refers to length, and FL is the corresponding combination.')
 parser.add_argument('--alpha', default=0.5, type=float)
