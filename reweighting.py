@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Yahui Liu <yahui.cvrs@gmail.com>
+# Yahui Liu <yahui.liu@unitn.it>
 
 import os
 import codecs

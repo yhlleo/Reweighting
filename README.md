@@ -22,10 +22,7 @@ We have provided two paired samples in the `examples` folder, including a [`sour
 
 ## Dataset Download (Coming soon)
 
-You can download the dataset from:
-
- - [Google Drive](./)
- - [Tencent Weiyun](./) (psw: xxxx)
+You can download the dataset by sending email to: yahui.liu AT unitn.it.
 
 **Please note that this dialogue corpus is RESTRICTED to non-commercial research and educational purposes**.
 
