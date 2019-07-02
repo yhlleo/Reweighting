@@ -20,6 +20,14 @@ python reweighting.py \
 
 We have provided two paired samples in the `examples` folder, including a [`source.train`](./examples/source.train) and [`target.train`](./examples/target.train).
 
+## Dataset Download (Coming soon)
+
+You can download the dataset from:
+
+ - [Google Drive](./)
+ - [Tencent Weiyun](./) (psw: xxxx)
+
+**Please note that this dialogue corpus is RESTRICTED to non-commercial research and educational purposes**.
 
 ## Reference
 
