@@ -20,7 +20,7 @@ python reweighting.py \
 
 We have provided two paired samples in the `examples` folder, including a [`source.train`](./examples/source.train) and [`target.train`](./examples/target.train).
 
-## Dataset Download (Coming soon)
+## Dataset Download
 
 You can download the dataset by sending email to: yahui.liu AT unitn.it.
 
