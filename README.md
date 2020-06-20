@@ -1,7 +1,7 @@
 # Reweighting
 
 Code for paper: [Towards Less Generic Responses in Neural Conversation Models:
-A Statistical Re-weighting Method](https://www.aclweb.org/anthology/D18-1297), EMNLP 2018 (short, oral). [[presentation]](https://vimeo.com/305942945)
+A Statistical Re-weighting Method](https://www.aclweb.org/anthology/D18-1297), EMNLP 2018 (short, oral). [[paper]](./paper/Reweighting-EMNLP-2018.pdf) | [[code]](https://github.com/yhlleo/Reweighting) | [[dataset]](https://drive.google.com/file/d/1r8B2psuncz2hoSvz4dIXXeOL7opItvN9/view?usp=sharing) | [[presentation]](https://vimeo.com/305942945)
 
 ## Usage
 
@@ -21,8 +21,6 @@ python reweighting.py \
 We have provided two paired samples in the `examples` folder, including a [`source.train`](./examples/source.train) and [`target.train`](./examples/target.train).
 
 ## Dataset Download
-
-You can download the dataset by sending email to: yahui.liu AT unitn.it.
 
 **Please note that this dialogue corpus is RESTRICTED to non-commercial research and educational purposes**.
 
