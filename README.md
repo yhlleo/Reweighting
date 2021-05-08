@@ -26,7 +26,7 @@ We have provided two paired samples in the `examples` folder, including a [`sour
 
 ## Reference
 
-Please cite our paper:
+If you use this research/dataset, please cite our paper:
 
 ```
 @inproceedings{liu2018towards,
